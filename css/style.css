@@ -276,8 +276,8 @@ ul.cat li {
   display: inline-block;
 }
 ol.type li {
-  display: inline-block;
-  margin-left: 10px;
+  /* display: inline-block; */
+  margin-left: 5px;
 }
 ol.type li a {
   background: grey;
