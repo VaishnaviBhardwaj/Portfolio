@@ -277,7 +277,7 @@ ul.cat li {
 }
 ol.type li {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 ol.type li a {
   background: grey;
@@ -297,10 +297,10 @@ ol.type li a:hover {
   color: #fff;
 }
 .isotope-item {
-  z-index: 2;
+  z-index: 1;
 }
 .isotope-hidden.isotope-item {
-  z-index: 1;
+  z-index: 0;
 }
 .isotope,
 .isotope .isotope-item {
