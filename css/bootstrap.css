@@ -211,6 +211,7 @@ th {
   }
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
+    
     content: "";
   }
   pre,
