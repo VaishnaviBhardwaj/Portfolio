@@ -120,7 +120,7 @@ hr {
   outline: 0;
 }
 .navbar-custom a {
-  color: #f4f5f6;
+  color: burlywood;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
@@ -163,7 +163,7 @@ hr {
 .btn-default.focus,
 .btn-default:active,
 .btn-default.active {
-  color: #fff;
+  color: black;
   background-color: #121d1f;
   border-color: #121d1f;
 }
