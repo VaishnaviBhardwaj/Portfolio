@@ -225,14 +225,12 @@ hr {
 /* Portfolio Section */
 #portfolio {
   padding: 80px 0;
-  background: transparent; /* Old browsers */
+  background: #ffffff; /* Old browsers */
   background: -moz-linear-gradient(
     top,
     #ffffff 0%,
     #f4f5f6 49%,
-    #ffffff 100% /* black 0%,
-    black 49%,
-    black 100% */
+    #ffffff 100%
   ); /* FF3.6+ */
   background: -webkit-gradient(
     linear,
@@ -280,13 +278,9 @@ ol.type li {
   margin-left: 20px;
 }
 ol.type li a {
-  background: transparent;
-  color: black;
-  border-radius: 25px;
-  border: 2px solid black;
-  padding: 6px;
-  width: 200px;
-  height: 150px;
+  background: grey;
+  color: #fff;
+  padding: 6px 14px;
 }
 ol.type li a.active {
   background: #121d1f;
