@@ -113,7 +113,7 @@ hr {
 .navbar-custom .navbar-brand .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
-  color: #fff;
+  color: black;
 }
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
@@ -137,7 +137,7 @@ hr {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
   outline: 0;
-  background-color: transparent;
+  background-color: black;
   color: #484d4e;
 }
 .navbar-custom .nav li.active {
