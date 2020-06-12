@@ -68,10 +68,7 @@ ol {
 .clearfix {
   display: block;
 }
-.darko {
-  background-color: #2b2b2b;
-  color: white;
-}
+
 
 ul,
 ol {
@@ -120,7 +117,7 @@ hr {
   outline: 0;
 }
 .navbar-custom a {
-  color: burlywood;
+  color: whitesmoke;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
@@ -147,7 +144,7 @@ hr {
   background-color: rgba(255, 255, 255, 0.3);
 }
 .navbar-custom .nav li.active a:hover {
-  color: #fff;
+  color: pink;
 }
 .btn-default {
   color: black;
@@ -179,7 +176,7 @@ hr {
 .btn-primary.focus,
 .btn-primary:active,
 .btn-primary.active {
-  color: #fff;
+  color: rgb(170, 58, 58);
   background-color: #7bc3d1;
   border-color: #7bc3d1;
 }
@@ -635,6 +632,30 @@ label {
 #footer a:hover {
   color: #7bc3d1;
 }
+/* Section oF rating*/
+
+.autocomplete-content {
+  position: absolute;
+}
+
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+
+.materialboxed {
+  margin-bottom: 5px;
+}
+
+.section-contact h5 {
+  margin-bottom: 30px;
+}
+
+.w3-row-padding img {
+  margin-bottom: 12px;
+}
+.checked {
+  color: orange;
+}
 
 /* Media Queries */
 @media (min-width: 768px) {
@@ -663,6 +684,7 @@ label {
   }
   section {
     padding: 120px 0;
+    color: black;
   }
   header .intro-text {
     padding-top: 300px;
@@ -699,30 +721,6 @@ label {
   }
 }
 
-/* Section oF rating*/
-
-.autocomplete-content {
-  position: absolute;
-}
-
-.section-follow .fa-4x {
-  margin: 5px 10px;
-}
-
-.materialboxed {
-  margin-bottom: 5px;
-}
-
-.section-contact h5 {
-  margin-bottom: 30px;
-}
-
-.w3-row-padding img {
-  margin-bottom: 12px;
-}
-.checked {
-  color: orange;
-}
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
