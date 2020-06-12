@@ -266,6 +266,12 @@ hr {
   ); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
 }
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 6px;
+}
+
 .categories {
   padding-bottom: 30px;
   text-align: center;
@@ -274,12 +280,12 @@ ul.cat li {
   display: inline-block;
 }
 ol.type li {
-  display: inline-block;
+  /* display: inline-block; */
   margin-left: 20px;
 }
 ol.type li a {
-  background: grey;
-  color: #fff;
+  background: transparent;
+  color: black;
   padding: 6px 14px;
 }
 ol.type li a.active {
@@ -291,7 +297,7 @@ ol.type li a:hover {
   color: #fff;
 }
 .isotope-item {
-  z-index: 2;
+  z-index: 1;
 }
 .isotope-hidden.isotope-item {
   z-index: 1;
@@ -614,24 +620,6 @@ label {
   background: #ffc85a;
 }
 
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 /* Footer Section*/
 #footer {
   background: #121d1f;
@@ -734,6 +722,23 @@ label {
 }
 .checked {
   color: orange;
+}
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media (min-width: 992px) {
