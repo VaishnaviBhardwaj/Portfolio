@@ -440,7 +440,7 @@ ol.type li a:hover {
   background: url(../img/intro-bg.jpg) no-repeat center bottom fixed;
 }
 #achievements h2 {
-  color: black;
+  color: white;
 }
 #achievements hr {
   background: rgba(255, 255, 255, 0.3);
